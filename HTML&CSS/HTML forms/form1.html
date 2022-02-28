@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-top: 15em;
+        }
+
+        .form-heading{
+            font-size: 2.5em;
+            color: rgb(61, 18, 141);
+            font-weight: 700;
+        }
+        .form-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: center;
+            text-align: center;
+        }
+        .form-elements{
+            padding: 5px;
+            width: 25em;
+        }
+        .form-inputs{
+            width: 99%;
+            height: 3em;
+            margin-top: 15px;
+            background-color: rgb(219, 219, 219);
+            border: none;
+            border-radius: 4px;
+        }
+        
+        .checkbox-forgot{
+            display: flex;
+            justify-content: space-between;
+            width: 99%;
+            margin-top: 15px;
+        }
+        .form-checkbox{
+            border-color: rgb(103, 103, 255);
+        }
+        .form-forgot{
+            text-decoration: none;
+            color: rgb(103, 103, 255);
+        }
+
+        .form-submitbtn{
+            width: 99%;
+            height: 3.5em;
+            color: white;
+            background-color: rgb(103, 103, 255);
+            border: none;
+            border-radius: 4px;
+            margin-top: 3em;
+        }
+        .btn{
+            margin-top: 2.5em;
+        }
+        ::placeholder {
+            color: rgb(100, 99, 99);
+            font-size: 1em;
+        }
+
+        input[type=text],input[type=password]{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            font-size: 1.3em;
+            margin: 10px;
+            background-color: rgb(219, 219, 219);
+            border: none;
+            outline: none;
+        }
+        button{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            font-size: 1em;
+            background-color: rgb(103, 103, 255);
+            border: none;
+            width: 99%;
+            height: 99%;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="form-container form-elements">
+        <span class="form-heading form-elements">
+            LOGIN
+        </span>
+
+        <div style="margin-top: 3em;"class="form-inputs form-elements">
+            <input  type="text" placeholder="Username"/>
+        </div>
+
+        <div class="form-inputs form-elements">
+            <input type="password" placeholder="Password"/>
+        </div>
+
+        <div class="checkbox-forgot form-elements">
+            <div>
+                <input class="form-checkbox" type="checkbox" />
+                <span style="color: gray;">Remember me</span>
+            </div>
+            <div>
+                <a href="none" class="form-forgot form-elements">Forgot?</a>
+            </div>
+        </div>
+        
+        <div class="form-submitbtn form-elements">
+            <button>LOGIN</button>
+        </div>
+    </div>
+    </form>
+
+</body>
+</html>

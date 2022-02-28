@@ -1,0 +1,29 @@
+{
+    "name": "sequalize-first",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.1",
+        "pg": "^8.7.1",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.15.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "sequelize-cli": "^6.4.1"
+    }
+}

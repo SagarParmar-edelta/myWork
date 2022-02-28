@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,500;1,600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #535253;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to left bottom, #784079, #f55579);
+        }
+
+        .container{
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 5px;
+        }
+
+        .title{
+            font-size: 25px;
+            font-weight: 550;
+            display: Relative;
+        }
+
+        .container form .user-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+          
+        }
+
+        form .user-details .input-box{
+            margin-bottom: 15px;
+            width: calc(100% / 2 - 20px);
+        }
+
+        .user-details .input-box .details{
+            margin-bottom: 5px;
+            font-weight: 500;
+            display: block;
+        }
+
+        .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #EEEFEF;
+            background-color: #EEEFEF;
+            padding-left: 15px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border-bottom-width: 2px;
+        }
+
+        .user-details .input-box input:focus{
+            border-color: #784079;
+        }
+        form .input-box .category{
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+            margin: 14px 0;
+        }
+
+        .input-box .category label{
+            display: flex;
+            align-items: center;
+        }
+        .input-box .category .radiobtn{
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background: red;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 5px solid #d9d9d9 transparent;
+        }
+
+        form .user-details .input-box2{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .input-box2 select{
+            width: 100%;
+        }
+
+        form .user-details .btn{
+            width: 25%;
+        }
+        form .user-details .btn input{
+            padding: unset;
+            color: #fff;
+            background-color: #4272D6;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span class="details">Birthday Name</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="">
+                            <span class="radiobtn"> </span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="">
+                            <span class="radiobtn"> </span>
+                            <span class="gender">Female</span>
+                        </label>  
+                    </div>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="number" name="" id="">
+                </div>
+                <div class="input-box input-box2">
+                    <span class="details">Subject</span>
+                    <select name="subjects" id="" size="3">
+                        <option value="Subject 1">Subject 1</option>
+                        <option value="Subject 2">Subject 2</option>
+                        <option value="Subject 3">Subject 3</option>
+                    </select>
+                </div>
+                <div class="input-box btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
