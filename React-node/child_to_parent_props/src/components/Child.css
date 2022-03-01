@@ -1,0 +1,10 @@
+.child {
+  width: 70%;
+  height: 300px;
+  background-color: aqua;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  margin: 10px 0 10px 0;
+}

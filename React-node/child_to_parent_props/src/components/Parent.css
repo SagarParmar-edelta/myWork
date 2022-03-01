@@ -1,0 +1,9 @@
+.parent {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
